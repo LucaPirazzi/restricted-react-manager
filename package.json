@@ -1,13 +1,13 @@
 {
   "name": "restricted-react-manager",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -15,6 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "restricted-react-manager": "^1.0.0",
     "web-vitals": "^2.1.4"
   },
   "eslintConfig": {
@@ -37,5 +38,26 @@
   },
   "devDependencies": {
     "react-app-rewired": "^2.2.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "src/components/Restricted",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucaPirazzi/restricted-react-manager.git"
+  },
+  "keywords": [
+    "\"permission\"",
+    "\"restricted\"",
+    "\"react\"",
+    "\"manager\""
+  ],
+  "author": "Luca Pirazzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucaPirazzi/restricted-react-manager/issues"
+  },
+  "homepage": "https://github.com/LucaPirazzi/restricted-react-manager#readme"
 }
