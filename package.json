@@ -1,63 +1,40 @@
 {
-  "name": "restricted-react-manager",
+  "name": "react-restricted-manager",
   "version": "1.0.0",
+  "description": "restriction manager for React.",
+  "main": "dist/index.js",
+  "files": ["dist"],
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "build": "babel src --out-dir dist --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": false,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "restricted-react-manager": "^1.0.0",
-    "web-vitals": "^2.1.4"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "react-app-rewired": "^2.2.1"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "src/components/Restricted",
-  "directories": {
-    "test": "test"
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LucaPirazzi/restricted-react-manager.git"
   },
   "keywords": [
-    "\"permission\"",
-    "\"restricted\"",
-    "\"react\"",
-    "\"manager\""
+    "'react'",
+    "'manager'",
+    "'restricted'",
+    "'permissions'"
   ],
   "author": "Luca Pirazzi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LucaPirazzi/restricted-react-manager/issues"
   },
-  "homepage": "https://github.com/LucaPirazzi/restricted-react-manager#readme"
+  "homepage": "https://github.com/LucaPirazzi/restricted-react-manager#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
