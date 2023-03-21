@@ -27,6 +27,10 @@
   "bugs": {
     "url": "https://github.com/LucaPirazzi/restricted-react-manager/issues"
   },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"],
   "homepage": "https://github.com/LucaPirazzi/restricted-react-manager#readme",
   "devDependencies": {
     "@babel/cli": "^7.21.0",
